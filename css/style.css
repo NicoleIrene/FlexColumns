@@ -1,0 +1,65 @@
+<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'El Messiri', sans-serif;
+}
+
+.header{
+	background-image: url("../images/flowerhair.jpeg");
+	padding:50px 0;
+	background-size: cover;
+
+}
+
+h1{
+	text-align: left;
+	color: #390099;
+	font-size: 60px;
+}
+.main-nav ul{
+	list-style: none;
+	float: right;
+}
+.main-nav li{
+	float:left;
+	padding:10px;
+	margin: 5px;
+}
+
+ .clearfix::after{
+ 	content:"";
+ 	display:table;
+ 	clear:both;
+ }
+
+ .main-nav {
+ 	min-height: 15px;
+ 	line-height: 15px;
+ 	background: #FF0054;
+ 	padding:0;
+ }
+.main-nav .nat {
+	float:left;
+	margin-left: 0;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 20px;
+
+}
+.row{
+	display:flex;
+}
+.col{
+	flex:1;
+	padding: 10px;
+	margin: 10px;
+	background:#FF0054;
+	color: #FFF;
+}
+
+
