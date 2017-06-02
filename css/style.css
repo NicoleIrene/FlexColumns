@@ -17,8 +17,11 @@ body{
 
 h1{
 	text-align: left;
-	color: #390099;
+	color: lemonchiffon;
 	font-size: 60px;
+}
+h2{
+	text-align:center;
 }
 .main-nav ul{
 	list-style: none;
@@ -46,7 +49,7 @@ h1{
 	float:left;
 	margin-left: 0;
 	font-size: 20px;
-	color: #FFF;
+	color: lemonchiffon;
 	text-decoration: none;
 	padding-top: 20px;
 
@@ -59,7 +62,29 @@ h1{
 	padding: 10px;
 	margin: 10px;
 	background:#FF0054;
-	color: #FFF;
+	color: lemonchiffon;
 }
+.col1{
+
+	flex:1;
+	padding: 10px;
+	margin: 10px;
+	background:#FF0054;
+	color: lemonchiffon;
+}
+.col1 img[src="images/coconut.jpg"] {
+	height: 150px;
+	width: 150px;
+	margin-left:85px;
+}
+.col img[src="images/olive-oil.jpg"]{
+	margin-left: 55px;
+
+}
+.col img[src="images/jojobaoil.jpg"]{
+	margin-left: 55px;
+}
+
+
 
 
